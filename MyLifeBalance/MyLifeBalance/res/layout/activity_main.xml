@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayoutLife"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFEEFF"
+    android:orientation="vertical"
+    tools:context="com.smg.mylifebalance.MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageLife"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/three"
+        android:contentDescription="@string/imageLife" />
+
+    <TextView
+        android:id="@+id/textLife"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:contentDescription="@string/imageLife"
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textIsSelectable="false" />
+
+    <ImageView
+        android:id="@+id/imageScale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/scales3"
+        android:contentDescription="@string/imageLife" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="6"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:progress="1" />
+
+</LinearLayout>
